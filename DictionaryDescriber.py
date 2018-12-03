@@ -184,9 +184,6 @@ def _test(verbose=True):
     print 'Print Tree'
     test_multi.print_tree()
     
-    print 'Test Output'
-    print ('{:>10}'.format('Hello')), ('{:>10}'.format('world'))
-    print ('{:=<20}'.format('hello'))
 
 if __name__ == '__main__':
     _test()
